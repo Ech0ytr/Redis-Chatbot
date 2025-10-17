@@ -1,10 +1,10 @@
 # Redis-Chatbot
 
-Introduction
+# Introduction
 Here is a comprehensive explanation that how to setup the chatbot, what functions does it have, and how to use it with your local environment.
 	The chatbot is built based on python functions and Redis, which allows the user to interact with the bot to identify themselves,  subscribe and publish messages in a channel in a Redis, and use special fun commands with the bot. 
 	
-Setup
+# Setup
 The folder structure looks like:
 --Miniproject1 (folder)
 	-- docker-compose.yml
@@ -44,7 +44,7 @@ The monitor in Redis will simultaneously record the interactions when the user i
 
 
 
-Run the chatbot
+# Run the chatbot
 Now it’s time to run the chatbot! Again, open a new window and use ‘cd’ to direct to the same folder as before. Run the command ‘docker exec -it slim-python bash’ and we will get into the python container with the user ‘root’. 
 
 <img width="468" height="280" alt="image" src="https://github.com/user-attachments/assets/25fe7e70-cff8-4ab6-81dd-bc80325a66be" />
@@ -159,10 +159,10 @@ Here are some special functions based on the beta version.
 <img width="426" height="602" alt="image" src="https://github.com/user-attachments/assets/4c109862-ab18-45f5-b886-e65c1b496500" />
 
 
-Summary
+# Summary
 	Here is all the detailed setup and commands/functions for this chatbot. Hope you have fun with it!
 
-Additional information:
+# Additional information:
 	There are some parts that I used GenAi to support with. They are all the comments and the extra function for subscribing multiple channels, and the code for the knowledge quiz part.
 
 <img width="498" height="653" alt="image" src="https://github.com/user-attachments/assets/bde0b8cd-c953-4b89-93c0-da68ac4e47dd" />
