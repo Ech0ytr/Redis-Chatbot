@@ -33,17 +33,6 @@ And after it was set up, open a new window thru shell -> new window on the top l
 The monitor in Redis will simultaneously record the interactions when the user is using the chatbot like identifying.
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Run the chatbot
 Now it’s time to run the chatbot! Again, open a new window and use ‘cd’ to direct to the same folder as before. Run the command ‘docker exec -it slim-python bash’ and we will get into the python container with the user ‘root’. 
 
@@ -91,14 +80,17 @@ And of course, since we can join, we can also leave the channel. Here, we choose
 
 
 Monitor Records:
+
  <img width="468" height="131" alt="image" src="https://github.com/user-attachments/assets/f88c0a43-b52e-4d77-9e6a-45a35194d513" />
 
 
 Similar to the previous 2 options, we can choose the option 4 to send a message to a channel. We can enter the channel name, and the input the message to send a message to the channel. 
+
 <img width="468" height="164" alt="image" src="https://github.com/user-attachments/assets/99ecccf6-3e7c-4179-8995-825fda102fa7" />
 
 
 Monitor Records: 
+
 <img width="468" height="25" alt="image" src="https://github.com/user-attachments/assets/d346760e-afbb-4e34-bca3-130ee6def345" />
 
 
@@ -108,6 +100,7 @@ Now, move onto option 5, we just enter the usernames that have been identified b
 
 
 Monitor Records:
+ 
  <img width="468" height="22" alt="image" src="https://github.com/user-attachments/assets/acbf4461-d83e-4e23-9040-216bf69b2496" />
 
 
@@ -127,20 +120,24 @@ And for option 6, it includes some special commands: 1) !help: This command can 
  
 
 Monitor Records:
+
 <img width="468" height="41" alt="image" src="https://github.com/user-attachments/assets/f8e4af27-2e56-449f-a551-985676ce7b33" />
 
  
 
 And here are the screenshots of the output for at 3 different user inputs to the bot: 
 Toy uses option 4 to send ‘hello’ to channel1
+ 
  <img width="468" height="23" alt="image" src="https://github.com/user-attachments/assets/ea735e01-a2b3-4d21-84dc-db9d76409be2" />
 
 
 Sol uses option 6: !whoami to get the info about herself.
+
  <img width="468" height="26" alt="image" src="https://github.com/user-attachments/assets/255e92c5-2f26-4891-a560-ee8ef78cb349" />
 
 
 Echo uses option 5 to get info about Sol
+ 
  <img width="468" height="24" alt="image" src="https://github.com/user-attachments/assets/9ab9efd8-269c-4c3b-b8ac-bd078d94d70d" />
 
 
@@ -150,12 +147,14 @@ Here are some special functions based on the beta version.
 1.	Add the function that allows the user to subscribe multiple channels: Now, users are allowed to listen to multiple channels at the same time. For example, if I’m in channel1 and I want to listen from channel2, I don’t have to leave channel1 then join channel2. Instead, just join channel2 now, and the user can listen to the message from channel2. Besides, users can now ask the chatbot to list out all the subscribed channel.
  
  <img width="468" height="336" alt="image" src="https://github.com/user-attachments/assets/917b55bf-e400-4310-a5dc-b22b93cc97be" />
+
 <img width="468" height="229" alt="image" src="https://github.com/user-attachments/assets/f2689c93-12c9-42dd-acb0-8b3e2e438c42" />
 
 
 2.	Knowledge test is available for the users. There are some simple but fun questions in the quiz, and users can get 10 points for answering correctly for each. Besides, users can check their own points, or they can also check the leaderboard, which allows them to see their names over there!
  
  <img width="275" height="376" alt="image" src="https://github.com/user-attachments/assets/d8769668-119d-4eb9-9732-cf62e78d9640" />
+
 <img width="426" height="602" alt="image" src="https://github.com/user-attachments/assets/4c109862-ab18-45f5-b886-e65c1b496500" />
 
 
