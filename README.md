@@ -160,9 +160,7 @@ Here are some special functions based on the beta version.
 
 
 # Summary
-	Here is all the detailed setup and commands/functions for this chatbot. Hope you have fun with it!
+Here is all the detailed setup and commands/functions for this chatbot. Hope you have fun with it!
 
 # Additional information:
-	There are some parts that I used GenAi to support with. They are all the comments and the extra function for subscribing multiple channels, and the code for the knowledge quiz part.
-
-<img width="498" height="653" alt="image" src="https://github.com/user-attachments/assets/bde0b8cd-c953-4b89-93c0-da68ac4e47dd" />
+There are some parts that I used GenAi to support with. They are all the comments and the extra function for subscribing multiple channels, and the code for the knowledge quiz part.
